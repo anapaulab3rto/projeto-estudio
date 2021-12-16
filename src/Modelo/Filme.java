@@ -1,3 +1,7 @@
+package Modelo;
+
+import Modelo.Estudio;
+
 public class Filme {
     private String  titulo;
     private Pessoa produtor, ator, atriz;

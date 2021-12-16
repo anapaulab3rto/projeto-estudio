@@ -1,3 +1,5 @@
+package Modelo;
+
 public class Estudio {
     private String nome, cnpj;
 
