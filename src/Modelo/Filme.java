@@ -1,12 +1,28 @@
 package Modelo;
 
-import Modelo.Estudio;
-
 public class Filme {
     private String  titulo;
-    private Pessoa produtor, ator, atriz;
     private int anoLancamento;
-    private Estudio estudio;
+    private String nomeEstudio;
+    private String elencoFilme;
+
+    public Filme(String titulo, int anoLancamento) {
+        this.titulo = titulo;
+        this.anoLancamento = anoLancamento;
+    }
+
+    public Filme(String titulo, int anoLancamento, String elencoFilme) {
+        this.titulo = titulo;
+        this.anoLancamento = anoLancamento;
+        this.elencoFilme = elencoFilme;
+    }
+
+    public Filme(String titulo, int anoLancamento, String nomeEstudio, String elencoFilme) {
+        this.titulo = titulo;
+        this.anoLancamento = anoLancamento;
+        this.nomeEstudio = nomeEstudio;
+        this.elencoFilme = elencoFilme;
+    }
 
     public String getTitulo() {
         return titulo;
@@ -14,30 +30,6 @@ public class Filme {
 
     public void setTitulo(String titulo) {
         this.titulo = titulo;
-    }
-
-    public Pessoa getProdutor() {
-        return produtor;
-    }
-
-    public void setProdutor(Pessoa produtor) {
-        this.produtor = produtor;
-    }
-
-    public Pessoa getAtor() {
-        return ator;
-    }
-
-    public void setAtor(Pessoa ator) {
-        this.ator = ator;
-    }
-
-    public Pessoa getAtriz() {
-        return atriz;
-    }
-
-    public void setAtriz(Pessoa atriz) {
-        this.atriz = atriz;
     }
 
     public int getAnoLancamento() {
@@ -48,11 +40,19 @@ public class Filme {
         this.anoLancamento = anoLancamento;
     }
 
-    public Estudio getEstudio() {
-        return estudio;
+    public String getNomeEstudio() {
+        return nomeEstudio;
     }
 
-    public void setEstudio(Estudio estudio) {
-        this.estudio = estudio;
+    public void setNomeEstudio(String nomeEstudio) {
+        this.nomeEstudio = nomeEstudio;
+    }
+
+    public String getElencoFilme() {
+        return elencoFilme;
+    }
+
+    public void setElencoFilme(String elencoFilme) {
+        this.elencoFilme = elencoFilme;
     }
 }
