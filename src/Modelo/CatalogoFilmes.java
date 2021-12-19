@@ -8,4 +8,7 @@ public class CatalogoFilmes {
     public ArrayList<Filme> getFilme() {
         return filmes;
     }
+
+
+
 }

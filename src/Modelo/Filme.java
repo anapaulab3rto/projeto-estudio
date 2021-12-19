@@ -1,27 +1,24 @@
 package Modelo;
 
+
+
+
 public class Filme {
     private String  titulo;
+    private Estudio estudioFilme;
+    private Produtor produtorFilme;
     private int anoLancamento;
-    private String nomeEstudio;
-    private String elencoFilme;
 
-    public Filme(String titulo, int anoLancamento) {
-        this.titulo = titulo;
-        this.anoLancamento = anoLancamento;
-    }
 
-    public Filme(String titulo, int anoLancamento, String elencoFilme) {
-        this.titulo = titulo;
-        this.anoLancamento = anoLancamento;
-        this.elencoFilme = elencoFilme;
-    }
 
-    public Filme(String titulo, int anoLancamento, String nomeEstudio, String elencoFilme) {
+
+    public Filme(String titulo, Estudio estudioFilme, Produtor produtorFilme, int anoLancamento) {
         this.titulo = titulo;
+        this.estudioFilme = estudioFilme;
+        this.produtorFilme = produtorFilme;
         this.anoLancamento = anoLancamento;
-        this.nomeEstudio = nomeEstudio;
-        this.elencoFilme = elencoFilme;
+
+
     }
 
     public String getTitulo() {
@@ -40,19 +37,21 @@ public class Filme {
         this.anoLancamento = anoLancamento;
     }
 
-    public String getNomeEstudio() {
-        return nomeEstudio;
+    public Estudio getEstudioFilme() {
+        return estudioFilme;
     }
 
-    public void setNomeEstudio(String nomeEstudio) {
-        this.nomeEstudio = nomeEstudio;
+    public void setEstudioFilme(Estudio estudioFilme) {
+        this.estudioFilme = estudioFilme;
     }
 
-    public String getElencoFilme() {
-        return elencoFilme;
+    public Produtor getProdutorFilme() {
+        return produtorFilme;
     }
 
-    public void setElencoFilme(String elencoFilme) {
-        this.elencoFilme = elencoFilme;
+    public void setProdutorFilme(Produtor produtorFilme) {
+        this.produtorFilme = produtorFilme;
     }
+
+
 }

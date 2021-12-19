@@ -1,14 +1,20 @@
 package Modelo;
 
 public class Estudio {
-    private String nome, cnpj;
+    private String nomeEstudio, cnpj;
 
-    public String getNome() {
-        return nome;
+
+
+    public Estudio(String nomeEstudio) {
+        this.nomeEstudio = nomeEstudio;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public String getNomeEstudio() {
+        return nomeEstudio;
+    }
+
+    public void setNomeEstudio(String nomeEstudio) {
+        this.nomeEstudio = nomeEstudio;
     }
 
     public String getCnpj() {

@@ -1,23 +1,26 @@
 package Visão;
 
 import Controlador.CatalogoFilmeControlador;
+import Controlador.ElencoControlador;
 import Modelo.*;
 
 
 import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
+
         int anoLancamento = 0;
-        String tituloFilme = null, nomeEstudio = null, filmeAtor = null, nomeAtores = null;
-        int idade = 0;
+        String tituloFilme = null, nomeEstudio = null, filmeAtor = null, nomeAtores = null, nomeProdutor = null;
         Filme filme;
+        Estudio estudioFilme;
+        Produtor produtorFilme;
         Atores atores;
-        String elencoFilme = null;
         char comando;
 
 
         CatalogoFilmeControlador catalogoFilmeControlador = new CatalogoFilmeControlador();
         CatalogoFilmes catalogoAtual;
+        ElencoControlador elencoControlador = new ElencoControlador();
         Elenco elencoAtual;
 
         Scanner leitor = new Scanner(System.in);
@@ -29,6 +32,9 @@ public class App {
 
                 System.out.println("Digite o nome do Estudio ");
                 nomeEstudio = leitor.nextLine();
+
+                System.out.println("Digite o nome do Produtor ");
+                nomeProdutor = leitor.nextLine();
 
                 System.out.println("Digite o ano de lançamento ");
                 anoLancamento = leitor.nextInt();
@@ -43,14 +49,16 @@ public class App {
                         System.out.println("Digite o nome do Ator ou atriz ");
                         nomeAtores = leitor.nextLine();
 
-                        System.out.println("Digite a idade do Ator ou atriz ");
-                        idade = leitor.nextInt();
-
                         filmeAtor = tituloFilme;
 
+
                     } finally {
-                        atores = new Atores(nomeAtores, idade, filmeAtor);
-                        elencoAtual = catalogoFilmeControlador.cadastrarAtores(atores);
+
+
+                        atores = new Atores(nomeAtores, filmeAtor);
+                        elencoAtual = elencoControlador.cadastrarAtores(atores);
+
+
 
 
                         System.out.println("Cadastrar outro Ator ou Atriz?(1=sim, 0=não)");
@@ -63,8 +71,14 @@ public class App {
 
             } finally {
 
-                filme = new Filme(tituloFilme, anoLancamento, nomeEstudio, elencoFilme);
+                produtorFilme = new Produtor(nomeProdutor);
+                estudioFilme = new Estudio(nomeEstudio);
+
+                filme = new Filme(tituloFilme, estudioFilme, produtorFilme, anoLancamento);
+
                 catalogoAtual = catalogoFilmeControlador.cadastrarFilmes(filme);
+
+
 
 
                 System.out.println("Cadastrar outro Filme?(1=sim, 0=não)");
@@ -78,6 +92,9 @@ public class App {
         leitor.close();
 
         catalogoFilmeControlador.imprimirFilmes();
+        elencoControlador.imprimirAtores();
+
+
 
 
     }

@@ -1,26 +1,15 @@
 package Modelo;
 
+import java.util.ArrayList;
+
 public class Atores {
     private String nomeAtores;
-    private int idade;
     private String filmeAtor;
 
-    public Atores(String nomeAtores, int idade) {
+
+
+    public Atores(String nomeAtores, String filmeAtor) {
         this.nomeAtores = nomeAtores;
-        this.idade = idade;
-    }
-
-    public Atores(String nomeAtores, int idade, String filmeAtor) {
-        this.nomeAtores = nomeAtores;
-        this.idade = idade;
-        this.filmeAtor = filmeAtor;
-    }
-
-    public String getFilmeAtor() {
-        return filmeAtor;
-    }
-
-    public void setFilmeAtor(String filmeAtor) {
         this.filmeAtor = filmeAtor;
     }
 
@@ -32,12 +21,12 @@ public class Atores {
         this.nomeAtores = nomeAtores;
     }
 
-    public int getIdade() {
-        return idade;
+    public String getFilmeAtor() {
+        return filmeAtor;
     }
 
-    public void setIdade(int idade) {
-        this.idade = idade;
+    public void setFilmeAtor(String filmeAtor) {
+        this.filmeAtor = filmeAtor;
     }
 }
 
