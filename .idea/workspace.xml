@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4028c8f-45ab-41d2-87af-53a173d2b26b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto-Estudio.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-Estudio/Controlador/CatalogoFilmeControlador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-Estudio/Controlador/ElencoControlador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-Estudio/Modelo/Atores.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-Estudio/Modelo/CatalogoFilmes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-Estudio/Modelo/Elenco.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-Estudio/Modelo/Estudio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-Estudio/Modelo/Filme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-Estudio/Visão/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controlador/CatalogoFilmeControlador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controlador/ElencoControlador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modelo/Atores.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modelo/CatalogoFilmes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modelo/Elenco.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modelo/Estudio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modelo/Filme.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modelo/Produtor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Visão/App.java" beforeDir="false" />
-    </list>
+    <list default="true" id="14c30eac-a3b3-4456-bae0-cc64afdded8c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,29 +10,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 4
-}]]></component>
-  <component name="ProjectId" id="2YfsJgpwrlzm2hEsxPgXG3nW0XB" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2YfyegPwb6YwwO8ISdirCbLGwK9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/AnaPaula/IdeaProjects/projeto-estudio&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b4028c8f-45ab-41d2-87af-53a173d2b26b" name="Changes" comment="" />
-      <created>1700927899967</created>
+      <changelist id="14c30eac-a3b3-4456-bae0-cc64afdded8c" name="Changes" comment="" />
+      <created>1700931027949</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1700927899967</updated>
+      <updated>1700931027949</updated>
     </task>
     <servers />
   </component>
